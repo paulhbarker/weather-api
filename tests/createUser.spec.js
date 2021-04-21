@@ -7,5 +7,5 @@ test('POST /user', async () => {
 
     const res = await request.post('/user').send(params);
 
-    expect(res.status).toBe(200);
+    expect(res.status).toBe(201);
 })

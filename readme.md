@@ -11,7 +11,7 @@ This app requires a `.env` file with the following entries:
 Tomorrow.io had incredible documentation on how to query its API and made using it very simple and straightforward, much more so than other APIs investigated. The ease and simplicity of its integration made it an easy target and will put a relatively small cognitive load on future developers. It also supports queries for daily weather forecasting, which was the main target of the application.
 
 ## Endpoints
----
+
 ### POST /user
 
 Create a new user.
@@ -34,7 +34,7 @@ POST http://localhost:3000/user
 **Sample Response:**
 
 ```
-Status Code: 200
+Status Code: 201
 ```
 ---
 ### POST /login
@@ -43,8 +43,8 @@ Login and generate a token for a user.
 
 **Parameters**
 
-| Param        | Type   | Description       |
-| ------------ | ------ |  ----------------- |
+| Param        | Type  | Description       |
+| --------- | ------ |  ----------------- |
 | username | String | Unique username identifier for user. |
 
 **Sample Request:**
